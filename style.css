@@ -1,0 +1,126 @@
+body {
+  background-color: #1c0f0f;
+}
+.header {
+  color: #21d5bdd2;
+  text-align: center;
+  padding-bottom: 0rem;
+  font-size: large10;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  color: #21d5bdd2;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  height: 1rem;
+  font-weight: 500;
+  padding-bottom: 21.41;
+  margin-top: 10rem;
+  margin-left: 7rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  color: grey;
+  text-align: center;
+  margin-left: 5rem;
+  font-size: 1rem;
+  margin-top: -1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  text-align: center;
+  color: #21d5bdd2;
+  margin-bottom: 2rem;
+  padding-bottom: 21, 41;
+  margin-top: 2rem;
+  margin-right: 0rem;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+  text-align: center;
+  color: #21d5bdd2;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image {
+  width: 350px;
+  box-shadow: 200 200 100px rgba(red, green, blue, alpha);
+  padding: 100;
+}
+.about {
+  color: grey;
+  text-align: center;
+  margin-left: 1rem;
+  font-size: 1rem;
+  margin-top: -1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact {
+  color: grey;
+  text-align: center;
+  margin-right: 5rem;
+  font-size: 20px;
+  margin-top: -1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+[href="./index.html"] {
+  color: #21d5bdd2;
+  margin-left: 80px;
+}
+[href="./about.html"] {
+  color: #21d5bdd2;
+  margin-left: 700px;
+  font-size: large;
+}
+[href="./contact.html"] {
+  color: #21d5bdd2;
+  margin-left: 100px;
+  font-size: large;
+}
+@keyframes studsa {
+  0% {
+    bottom: 0;
+  }
+  45% {
+    bottom: 200px;
+  }
+  90% {
+    bottom: 0;
+    height: 100px;
+  }
+  95% {
+    height: 90px;
+  }
+  100% {
+    height: 100px;
+  }
+}
+.boll {
+  z-index: 1;
+  border-radius: 200%;
+  height: 100px;
+  width: 100px;
+  background-color: #21d5bdd2;
+  position: absolute;
+  bottom: 0;
+
+  left: 20%;
+  margin-right: 12rem;
+  margin-bottom: -8rem;
+  animation-name: studsa;
+  animation-duration: 2s;
+  animation-iteration-count: 300;
+  animation-timing-function: ease-in-out;
+}
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+}
+body {
+  background-color: #1c0f0f;
+}
